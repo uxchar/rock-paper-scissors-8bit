@@ -12,22 +12,22 @@ Welcome to the **8-Bit Rock Paper Scissors Game**! This retro-inspired game brin
 
 ## Installation
 
-To run this game locally on your machine, follow these steps:
+To run this game locally on your machine, you need to set up a live server to serve the assets correctly. Follow these steps:
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/yourusername/8bit-rps-game.git
-   cd 8bit-rps-game
-   ```
+git clone https://github.com/yourusername/8bit-rps-game.git
+cd 8bit-rps-game
 
-2. Open the `index.html` file in your preferred web browser:
+2. Install a live server if you don’t have one. You can use Live Server with Visual Studio Code or use the following command with Node.js:
 
-   ```bash
-   open index.html
-   ```
+npm install -g live-server
 
-No additional dependencies are required to run this game.
+3. Start the live server:
+
+live-server
+
+4. Open the provided local URL in your preferred web browser. The game should now be running with all assets properly loaded.
 
 ## How to Play
 
