@@ -37,14 +37,6 @@ live-server
 4. **Track Your Score**: The scores will be updated after each round. See if you can beat the computer!
 5. **Start Over**: Click the "Start Over" button at any time to reset the scores and play again.
 
-## Customization
-
-Feel free to customize the game to your liking:
-
-1. **Change the Images**: Replace the images in the `assets/imgs/` directory with your own pixel art or retro icons.
-2. **Modify the CSS**: Adjust the styles in `styles/style.css` to change the appearance of the game.
-3. **Enhance the Logic**: Expand the game’s logic in `js/script.js` to add more features or game modes.
-
 ## Features I Hope To Add
 
 Would like to work on responsive design so that it is playable on mobile
