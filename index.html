@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Rock Paper Scissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <!-- latest -->
+    <link
+      href="https://unpkg.com/nes.css@latest/css/nes.min.css"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  </head>
+  <body>
+    <div class="rps-game-container">
+      <div class="rps-game">
+        <section class="message -right animate__animated animate__bounceInDown">
+          <!-- Balloon -->
+          <div class="nes-balloon">
+            <span id="computer-text"></span>
+
+            <div class="nes-field ">
+              <label id="name_field_label" for="name_field">Your name</label>
+              <input type="text" id="name_field" class="nes-input">
+              <button type="button" id= "nes-submit" class="nes-btn is-primary" onclick="nameSubmit()">Submit</button>
+
+            </div>
+          </div>
+          <img src="/assets/imgs/vecteezy_pixel-art-the-boy-character-in-summer-mood-with-duck-swimring_28652159.png" class="nes-boy" />
+        </section>
+      </section>
+    </section>
+        <div class="icons-container">
+          <div class="rock">
+            <p class="choice-name first-title">Rock</p>
+            <button  class="choice-btn"
+            value="rock"
+            name="option">
+            <img
+              src="assets/imgs/vecteezy_pixel-art-illustration-stone-pixelated-stone-stone_34606245.jpg"
+              alt="8-bit rock icon"
+              class="choice-img"
+             
+            />
+          </button>
+          </div>
+          <div class="paper" >
+            <p class="choice-name second-title">Paper</p>
+            <button  class="choice-btn"
+            value="paper"
+            name="option">
+            <img
+              src="assets/imgs/vecteezy_pixel-art-illustration-paper-bag-pixelated-paper-bag-paper_34206642.jpg"
+              alt="8-bit paper bag icon"
+              class="choice-img"
+             
+            />
+          </button>
+          </div>
+          <div class="scissors">
+            <p class="choice-name third-title">Scissors</p>
+            <button class="choice-btn"
+            value="scissors"
+            name="option">
+           <img
+              src="assets/imgs/vecteezy_pixel-art-illustration-scissors-pixelated-scissors_30334992.jpg"
+              alt="8-bit scissors icon"
+              class="choice-img"
+            
+            />
+          </button>
+          </div>
+        </div>
+        <div class="btns-container">
+          <!-- <button class="nes-btn is-success" id="start-game-btn">Submit</button> -->
+
+          <button class="nes-btn" onclick="startOver()">Start Over</button>
+        </div>
+        <div class="scores">
+          <span id="player-scoreboard"></span>
+          <span id="computer-scoreboard"></span>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
