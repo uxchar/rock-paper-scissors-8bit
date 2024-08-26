@@ -104,7 +104,7 @@ const nameSubmit = () => {
   playerNameLabel.remove();
   nameSubmitBtn.remove();
 
-  computerSpeech.textContent = `Know your name is ${playerName.value}, but you're chump today, because I'm the champ baby whooo! Kidding. Alright now, We can start playing when
+  computerSpeech.textContent = `Know your name is ${playerName.value}, but I'm the champ baby whooo! Kidding. Alright now, We can start playing when
   you're ready by clicking one of the options below.`;
 };
 
